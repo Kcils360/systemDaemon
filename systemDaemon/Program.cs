@@ -65,7 +65,7 @@ namespace systemDaemon
                 while (!token.IsCancellationRequested)
                 {
                     action();
-                    //seconds = getSeconds(); **optional**
+                    seconds = getSeconds(); //**optional**
                     await Task.Delay(TimeSpan.FromSeconds(seconds), token);
                 }
             }, token);
