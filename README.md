@@ -34,7 +34,7 @@ Microsoft Visual Studio Community 2019 (Version 16.5.0)
 
 Clone this repository to your local machine.
 ```
-$ git clone https://github.com/Corliss-Dukes/syncdaemon
+$ git clone https://github.com/Kcils360/systemDaemon
 ```
 Once downloaded, you can either use the dotnet CLI utilities or Visual Studio 2019 (or greater) to build the 
 application. The solution file is located in the syncdaemon subdirectory at the root of the repository.
