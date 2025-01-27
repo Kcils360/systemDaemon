@@ -16,7 +16,7 @@ namespace systemDaemon
             if (dt.TimeOfDay.Hours == 23) //23 = 11:00PM
             {
                 Logger.log("runLogger", "Initialize NightlySync()");
-                //new task to run here
+                //new task to run here ex: Console.Writeline("11:00, RunCheck works");
             }
         }
     }
